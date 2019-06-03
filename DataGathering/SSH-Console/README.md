@@ -38,7 +38,7 @@ tcpdump -i eth0 -w ssh_tagged.pcap
 From the *client_container*, login to the *server_container* over SSH.
 
 ```bash
-ssh ubuntu@server_container
+ssh ubuntu@172.19.0.2
 ```
 
 The login password is **ubuntu**.
