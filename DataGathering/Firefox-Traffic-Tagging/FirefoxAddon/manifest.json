@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Traffic Labeling",
+	"version": "1.0",
+	"description": "Labels network traffic with UDP labels so that machine learning tools can be used for side-channel detection and prevention.",
+	
+	"permissions": [
+		"webNavigation",
+		"nativeMessaging"
+	],
+	
+	"applications": {
+		"gecko": {
+			"id": "webudptagger@sidechannelreport",
+			"strict_min_version": "1.0"
+		}
+	},
+	
+	"background": {
+		"scripts": ["label_traffic.js"]
+	}
+}

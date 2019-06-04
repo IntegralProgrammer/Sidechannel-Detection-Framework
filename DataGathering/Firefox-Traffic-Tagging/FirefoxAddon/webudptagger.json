@@ -1,0 +1,7 @@
+{
+	"name": "webudptagger",
+	"description": "Calls native application to inject UDP labels to aid in supervised learning traffic classification",
+	"path": "/webudptagger.py",
+	"type": "stdio",
+	"allowed_extensions": ["webudptagger@sidechannelreport"]
+}
